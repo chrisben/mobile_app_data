@@ -1,0 +1,21 @@
+{
+  "name": "mobile_app_data",
+  "version": "1.0.0",
+  "description": "Generates Swift, Kotlin and Java objects from a JSON data file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js test/input/test_data.json test/output/ com.domain.android.app"
+  },
+  "keywords": [
+    "json",
+    "swift",
+    "kotlin",
+    "java",
+    "data"
+  ],
+  "author": "Christophe BENOIT",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
